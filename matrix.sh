@@ -80,30 +80,6 @@ runLoop() {
           fi
           #Move forward
           currHeadRow[$i]=$((${currHeadRow[$i]}+1))
-            
-
-          #echo $col
-          #Print blank spaces
-          #while [ "$curr" -lt "${tailRow[$i]}" ] ; do
-          #  tput cup $curr $col
-          #  echo -en "\e[48;5;232m \e[0m"
-          #  curr=$(($curr+1))
-          #done
-
-          #Print the characters
-          #while [ "$curr" -le "${currHeadRow[$i]}" ] ; do
-          #  tput cup $curr $col
-          #  echo -en "\e[38;5;46;48;5;232mO\e[0m"
-          #  #echo "z"
-          #  curr=$(($curr+1))
-          #done
-
-          #Print left blank spaces
-          #while [ "$curr" -le "$rows" ] ; do
-          #  tput cup $curr $col
-          #  echo -en "\e[48;5;232m  \e[0m"
-          #  curr=$(($curr+1))
-          #done
         fi
       else
         sleepCount[$i]=$((sleepCount[$i] - 1))
