@@ -1,2 +1,2 @@
 # LinuxScripts
-This project contains practice linux projects.
+This project contains various Linux scipts.
