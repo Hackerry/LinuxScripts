@@ -1,11 +1,14 @@
 #!/bin/bash
 
-MY_EXE=~/pa1/pa1
-REF_EXE=~/../public/pa1test
+MY_EXE=$1
+REF_EXE=$2
 
 MY_OUT=~/Desktop/my_out
 REF_OUT=~/Desktop/ref_out
 ARG_FILE=~/Desktop/args
+
+rm -f ${MY_OUT}
+rm -f ${REF_OUT}
 
 touch ${MY_OUT}
 touch ${REF_OUT}
