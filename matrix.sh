@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# This file is a practice to print out a matrix effect in CentOS terminal
+# The escape sequences used doesn't work properly on OS terminal
+# (research shows OS terminal use different escape rules...)
+
 trap cleanUp EXIT
 
 cleanUp() {
