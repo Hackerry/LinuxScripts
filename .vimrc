@@ -28,9 +28,9 @@ set bg=light                    " Light background.
 set cc=80			" Set a boundary for 80 characters.
 
 " Expand tabs in C files to spaces.
-au BufRead,BufNewFile *.{c,h,java} set expandtab
-au BufRead,BufNewFile *.{c,h,java} set shiftwidth=2
-au BufRead,BufNewFile *.{c,h,java} set tabstop=2
+au BufRead,BufNewFile *.{c,h,java,cpp} set expandtab
+au BufRead,BufNewFile *.{c,h,java,cpp} set shiftwidth=2
+au BufRead,BufNewFile *.{c,h,java,cpp} set tabstop=2
 
 " Do not expand tabs in assembly file.  Make them 8 chars wide.
 au BufRead,BufNewFile *.s set noexpandtab
