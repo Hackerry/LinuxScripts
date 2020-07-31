@@ -54,3 +54,5 @@ map <C-K> :prev <CR>
 map <F10> <Esc>setlocal spell spelllang=en_us<CR>
 map <F11> <Esc>setlocal nospell<CR>
 
+" Disable vim bell sound
+set visualbell
