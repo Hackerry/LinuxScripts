@@ -15,3 +15,6 @@ Host \<custom name\><br>
   IdentityFile \<id_rsa\><br>
   TCPKeepAlive yes<br>
   IdentitiesOnly yes<br>
+
+Prevent terminal from bell on tab: /etc/inputrc "set bell-style none"<br>
+Prevent vim from bell: ~/.vimrc "set visualbell"<br>
