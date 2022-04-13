@@ -18,3 +18,8 @@ Host \<custom name\><br>
 
 Prevent terminal from bell on tab: /etc/inputrc "set bell-style none"<br>
 Prevent vim from bell: ~/.vimrc "set visualbell"<br>
+
+New Github token repo setup:
+1. Generate token, if necessary, in settings
+2. Check repo link with `git remote -v`
+3. Then set `git remote set-url origin https://[user]:<MYTOKEN>@[github.com/user/repo.git]` (Ref: https://stackoverflow.com/a/18936804)
